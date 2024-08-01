@@ -4,7 +4,7 @@ impl Solution {
             return 0;
         }
 
-        let mut j: u32 = 0;
+        let mut j = 0;
         for i in 1..nums.len() {
             if nums[j] != nums[i] {
                 j += 1;
